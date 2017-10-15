@@ -1,5 +1,20 @@
 body{
   background: url('../img/greyfloral.png');
+  font-weight: 300;
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: 300;
+}
+
+.logo {
+  height: 210px;
+  background: url('../img/wayward-woman.svg');
+  text-indent: -10000px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  margin: 20px 0 50px 0;
 }
 
 .social-media {
