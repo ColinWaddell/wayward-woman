@@ -22,6 +22,10 @@ hr {
   margin: 20px 0 30px 0;
 }
 
+.nospace{
+  word-spacing: -.22em;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
   .logo {
