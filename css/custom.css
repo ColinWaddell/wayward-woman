@@ -1,7 +1,8 @@
 body{
-  background: #7d8395;
-  /* font-family: 'BenchNine', sans-serif; */
+  background: url(../img/bg.png);
+  background-size: cover;
   font-family: 'Open Sans Condensed', sans-serif;
+  color: #888;
 }
 
 h1,h2,h3,h4,h5 {
@@ -76,55 +77,3 @@ hr {
 .footer {
   margin-top: 40px;
 }
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-}
-
-.peel-box{
-  background: #FFF;
-  margin: 10px auto;
-  position: relative;
-}
-
-.peel-box:after {
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  right: 10px;
-  left: auto;
-  width: 50%;
-  top: 80%;
-  max-width: 300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #333;
-  -moz-box-shadow: 0 15px 10px #333;
-  box-shadow: 0 15px 10px #333;
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  transform: rotate(3deg);
-}
-
-
-.js-video {
-  height: 0;
-  padding-top: 25px;
-  padding-bottom: 67.5%;
-  margin-bottom: 10px;
-  position: relative;
-  overflow: hidden;
-}
- 
