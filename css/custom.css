@@ -12,6 +12,10 @@ hr {
   width: 50%;
 }
 
+b, strong {
+  font-weight: normal;
+}
+
 .logo {
   height: 210px;
   background: url('../img/wayward-woman.svg');
