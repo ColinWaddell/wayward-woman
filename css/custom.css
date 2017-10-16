@@ -33,7 +33,7 @@ hr {
 }
 
 .nospace{
-  word-spacing: -.22em;
+  word-wrap: break-word;
 }
 
 /* Small devices (tablets, 768px and up) */
